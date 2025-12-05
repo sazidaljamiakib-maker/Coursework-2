@@ -18,6 +18,8 @@ nav {
     align-items: center;
     background: #000;
     padding: 15px 25px;
+    position: fixed;
+    width: 97%;
 }
 
 .logo {
