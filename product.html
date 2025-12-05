@@ -14,6 +14,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="product.html" class="active">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
@@ -27,18 +28,22 @@
             <img src="shoe1.png" alt="">
             <h3>Puma Velocity Nitro</h3>
             <p>£120</p>
+            <button onclick="addToCart('Puma Velocity Nitro',120)">Add to Cart</button>
         </div>
+
         <div class="card">
             <img src="shoe2.png" alt="">
             <h3>Puma RS-X</h3>
             <p>£99</p>
+            <button onclick="addToCart('Puma RS-X',99)">Add to Cart</button>
         </div>
+
         <div class="card">
             <img src="shoe3.jpg" alt="">
             <h3>Puma Suede Classic</h3>
             <p>£85</p>
+            <button onclick="addToCart('Puma Suede Classic',85)">Add to Cart</button>
         </div>
-        
     </div>
 </section>
 
@@ -46,5 +51,8 @@
     <p>© 2025 PUMA Footwear</p>
 </footer>
 
+<script src="cart.js"></script>
 </body>
 </html>
+
+            
