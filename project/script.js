@@ -44,5 +44,9 @@ form.addEventListener("submit", (e) => {
 
     statusMsg.style.color = "green";
     statusMsg.textContent = "Message sent successfully!";
+
+    // POPUP MESSAGE
+    alert("Thank you! Your order is confirmed.");
+
     form.reset();
 });
